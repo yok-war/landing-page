@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #1b5e20; /* Hijau tua */
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  header {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #2e7d32; /* Hijau lebih terang */
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    background-color: #388e3c; /* Hijau sedikit lebih terang */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2c6b2f; /* Hijau lebih gelap */
+  }
+  
+  section#features {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #388e3c;
+  }
+
+  section.container{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .feature {
+    background-color: #4caf50; /* Hijau sedang */
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    text-align: center;
+  }
+  
+  .feature h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2e7d32;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  
